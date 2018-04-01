@@ -1,0 +1,6 @@
+node: node1
+
+database: db_user:db_password@tcp(db_host:db_port)/database?timeout=2s
+
+etcd:
+  - http://etcdhost
