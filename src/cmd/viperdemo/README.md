@@ -12,3 +12,5 @@ go build -o viperdemo cmd/viperdemo/viperdemo.go
 [Providing Options for Go Applications](https://sfxpt.wordpress.com/2015/06/16/providing-options-for-go-applications/)
 
 [Viper, Go configuration with fangs](https://sfxpt.wordpress.com/2015/06/25/viper-go-configuration-with-fangs/)
+
+[log15 doc](https://godoc.org/gopkg.in/inconshreveable/log15.v2#hdr-Handlers)

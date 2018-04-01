@@ -1,5 +1,5 @@
 hash: b7a2d39e95f3b9c30a1d7d599990377b720880d1bc1add45bcf695e8cc0fc8e4
-updated: 2018-04-01T20:14:02.653723962+08:00
+updated: 2018-04-01T21:01:29.814938265+08:00
 imports:
 - name: github.com/Bowery/prompt
   version: 94b504f42fdd503acc3b3c79ec2b517d90e0de8a
@@ -7,6 +7,8 @@ imports:
   version: 855e8d98f1852d48dde521e0522408d1fe7e836a
 - name: github.com/fsnotify/fsnotify
   version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/go-stack/stack
+  version: 817915b46b97fd7bb80e8ab6b69f01a53ac3eebf
 - name: github.com/google/shlex
   version: 6f45313302b9c56850fc17f99e40caebce98c716
 - name: github.com/hashicorp/hcl
@@ -21,8 +23,14 @@ imports:
   - json/parser
   - json/scanner
   - json/token
+- name: github.com/inconshreveable/log15
+  version: 0decfc6c20d9ca0ad143b0e89dcaa20f810b4fb3
 - name: github.com/magiconair/properties
   version: 2c9e9502788518c97fe44e8955cd069417ee89df
+- name: github.com/mattn/go-colorable
+  version: 7dc3415be66d7cc68bf0182f35c8d31f8d2ad8a7
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
 - name: github.com/mitchellh/mapstructure
   version: 00c29f56e2386353d58c599509e8dc3801b0d716
 - name: github.com/pelletier/go-toml
