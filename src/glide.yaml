@@ -1,0 +1,27 @@
+package: .
+import:
+- package: github.com/Bowery/prompt
+- package: github.com/dchest/safefile
+- package: github.com/google/shlex
+- package: github.com/pkg/errors
+- package: github.com/pkg/sftp
+- package: github.com/xordataexchange/crypt
+  subpackages:
+  - config
+- package: golang.org/x/tools
+  subpackages:
+  - go/buildutil
+  - go/loader
+  - go/vcs
+- package: github.com/spf13/viper
+  version: ~1.0.2
+testImport:
+- package: github.com/BurntSushi/toml
+- package: github.com/davecgh/go-spew
+  subpackages:
+  - spew
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
+  - require
+- package: gopkg.in/check.v1

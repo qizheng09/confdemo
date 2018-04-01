@@ -1,0 +1,80 @@
+hash: b7a2d39e95f3b9c30a1d7d599990377b720880d1bc1add45bcf695e8cc0fc8e4
+updated: 2018-04-01T20:14:02.653723962+08:00
+imports:
+- name: github.com/Bowery/prompt
+  version: 94b504f42fdd503acc3b3c79ec2b517d90e0de8a
+- name: github.com/dchest/safefile
+  version: 855e8d98f1852d48dde521e0522408d1fe7e836a
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/google/shlex
+  version: 6f45313302b9c56850fc17f99e40caebce98c716
+- name: github.com/hashicorp/hcl
+  version: f40e974e75af4e271d97ce0fc917af5898ae7bda
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/magiconair/properties
+  version: 2c9e9502788518c97fe44e8955cd069417ee89df
+- name: github.com/mitchellh/mapstructure
+  version: 00c29f56e2386353d58c599509e8dc3801b0d716
+- name: github.com/pelletier/go-toml
+  version: 66540cf1fcd2c3aee6f6787dfa32a6ae9a870f12
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: github.com/pkg/sftp
+  version: 43ec6c679d353f6e077d3965dc74f6d996eb4a09
+- name: github.com/spf13/afero
+  version: a880a37ed1804d98f64b3b7d58b5e3f8fbf421c4
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8965335b8c7107321228e3e3702cab9832751bac
+- name: github.com/spf13/jwalterweatherman
+  version: 7c0cea34c8ece3fbeb2b27ab9b59511d360fb394
+- name: github.com/spf13/pflag
+  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+- name: github.com/spf13/viper
+  version: b5e8006cbee93ec955a89ab31e0e3ce3204f3736
+- name: github.com/xordataexchange/crypt
+  version: b2862e3d0a775f18c7cfe02273500ae307b61218
+  subpackages:
+  - config
+- name: golang.org/x/sys
+  version: 7ddbeae9ae08c6a06a59597f0c9edbc5ff2444ce
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - transform
+  - unicode/norm
+- name: golang.org/x/tools
+  version: 370143dbcae1edc3c1c0f447e98e00a837bddd2d
+  subpackages:
+  - go/buildutil
+  - go/loader
+  - go/vcs
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+testImports:
+- name: github.com/BurntSushi/toml
+  version: a368813c5e648fee92e5f6c30e3944ff9d5e8895
+- name: github.com/davecgh/go-spew
+  version: 04cdfd42973bb9c8589fd6a731800cf222fde1a9
+  subpackages:
+  - spew
+- name: github.com/stretchr/testify
+  version: f6abca593680b2315d2075e0f5e2a9751e3f431a
+  subpackages:
+  - assert
+  - require
+- name: gopkg.in/check.v1
+  version: 20d25e2804050c1cd24a7eea1e7a6447dd0e74ec
